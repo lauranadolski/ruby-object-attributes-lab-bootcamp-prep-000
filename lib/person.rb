@@ -1,18 +1,23 @@
 class Person
  
-  def initialize(first_name, last_name)
-    @first_name = first_name
-    @last_name = last_name
+    def initialize(name)
+    @name = name
   end
- 
-  def name=(full_name)
-    first_name, last_name = full_name.split
-    @first_name = first_name
-    @last_name = last_name
-  end
- 
   def name
-    "#{@first_name} #{@last_name}".strip
+    @name
+  end
+  def name=(new_name)
+    @name = new_name
+  end
+ 
+   def initialize(job)
+    @job = job
+  end
+  def job
+    @job
+  end
+  def job=(new_job)
+    @breed = new_breed
   end
  
 end
