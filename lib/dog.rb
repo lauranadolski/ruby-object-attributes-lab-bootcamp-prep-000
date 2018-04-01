@@ -8,7 +8,7 @@ class Dog
     @name
   end
  
-  def name
+  def name= 
     "#{@first_name} #{@last_name}".strip
   end
  
