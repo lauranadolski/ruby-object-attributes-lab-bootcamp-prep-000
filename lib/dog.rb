@@ -1,15 +1,11 @@
 class Dog
  
- def name=(dog_name)
-    this_dogs_name = dog_name
-  end
+ def name
+ end
  
-  def name
-    @dog_name
-  end
+ def name=
+ end
  
-  def initialize(dog_name)
-    @dog_name = dog_name
-  end
+ #Read and write to a corresponding instance variable @name.
  
 end
