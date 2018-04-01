@@ -9,7 +9,7 @@ class Dog
   end
  
   def name=(new_name)
-    "#{@first_name} #{@last_name}".strip
+    @name = new_name
   end
  
 end
